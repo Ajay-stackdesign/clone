@@ -14,8 +14,8 @@ import SwipeButton from "./SwipeButton";
 function App() {
   return (
     <div className="App">
-      <Router>
-       
+
+      <Router> 
         <Switch>
           <Route path="/chat">
             <Header backButton="/chat" />
